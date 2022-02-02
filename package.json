@@ -1,5 +1,5 @@
 {
-  "name": "ajax",
+  "name": "simple-ws-chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "server": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pavlo Voloshyn",
   "license": "ISC",
   "dependencies": {
     "ws": "^7.5.1"
