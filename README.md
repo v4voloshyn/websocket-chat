@@ -1,7 +1,7 @@
 # Websocket-chat
 Simple chat on WebSocket
 
-### To run this project:
+### To run and view this project:
 - Clone this repo;
 - Run the WebSocket server from root folder of this repo via command: **npm run start**
 - Run Live Server or http-server with index.html file;
