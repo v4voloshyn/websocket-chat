@@ -6,9 +6,9 @@ Simple chat on WebSocket
 - Run the WebSocket server from root folder of this repo via command: **npm run start**
 - Run Live Server or http-server with index.html file;
 - That's all! 
-- Open two or more tabs of one or few browsers, enter your UserName (The name what will be shown in chat) and start to talk :)
+- Open two or more tabs in one or few browsers, enter your UserName (The name what will be shown in chat) and start to talk :)
   ## OR
-  You can just open [This Link](https://v4voloshyn.github.io/websocket-chat/) and just do the last step of the list above ;)
+  You can just open **[This Link](https://v4voloshyn.github.io/websocket-chat/)** in a new tab and just do the last step of the list above ;)
 
 
 #### Task requiers:
