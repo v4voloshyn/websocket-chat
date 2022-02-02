@@ -1,0 +1,92 @@
+body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+form {
+   height: 9.5vh;
+   display: flex;
+   position: fixed;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+ul {
+   width: 90%;
+   margin: 10px auto;
+   padding: 0 20px;
+   overflow-y: scroll;
+   height: 90vh;
+   list-style-type: none;
+}
+
+li {
+   display: flex;
+   flex-direction: column;
+}
+
+li > span.send-s,
+li > span.recive-s {
+   position: relative;
+   margin-bottom: 10px;
+   box-shadow: 2px 3px 5px 2px rgba(60, 55, 60, 0.3);
+   padding-bottom: 17px;
+}
+
+.chat__wrapper {
+   display: flex;
+   flex-direction: column;
+   overflow-y: hidden;
+}
+
+.user {
+   margin: 5px 0;
+}
+
+.time {
+   position: absolute;
+   bottom: 2px;
+   right: 5px;
+   font-size: 10px;
+}
+
+.recive {
+   display: flex;
+   align-items: flex-start;
+   
+}
+
+.recive-s {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+   overflow: hidden;
+   width: fit-content;
+   max-width: 50%;
+   padding: 10px;
+   background-color: lightyellow;
+}
+
+.send {
+   display: flex;
+   align-items: flex-end;
+}
+
+.send-s {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+   overflow: hidden;
+   width: fit-content;
+   max-width: 50%;
+   padding: 10px;
+   background-color: lightgreen;
+}
+
+.textarea {
+   padding: 0;
+   max-width: 80%;
+   height: 100%;
+}
